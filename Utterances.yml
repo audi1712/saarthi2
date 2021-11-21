@@ -1,0 +1,290 @@
+nlu:
+- intent: questionhow
+  examples: |
+    - How you doin
+    - how can you solve my problem?
+    - What is up
+    - How have you been
+    - How's your day
+    - How are you doing
+    - How is everything going on?
+    - How are you
+    - What's happening
+    - How was your day
+    - how are you recently !
+    - How is your day going?
+    - How is the josh
+    - how are things going
+    - How are you today?
+    - How's your day going
+- intent: questionservices
+  examples: |
+    - How can you help me?
+    - Tell me things you are programmed to do?
+    - any specific domain that is the motto of your company.
+    - tell me about your capabilties
+    - I need to know how you can help me out
+    - do you provide services for sales marketing?
+    - Do you provide service in agriculture domain.
+    - I am looking for a sales and marketing chatbot.
+    - Do you provide assistance in Lead generation?
+    - I have a small food delivery business in my region, can you help me with that
+    - can you solve my problem?
+    - Do you offer your serices to medium sized enterprises?
+    - tell me your capabilities
+    - Do you work in user onboarding?
+    - what are you capable of 
+    - Do you provide assistance in sales marketing?
+    - Your contact details?
+    - what can you do to help me?
+    - Had Saarthi ever coordinated with mid sized companies? 
+    - what are the areas in which you provide service
+    - Which size of enterprises do you serve usually?
+    - could you help me assist in sales marketing?
+    - What is your purpose?
+    - Could you help me assist in customer support?
+    - what can you do?
+    - My company works for ecommerce. Do you provide services in this domain?
+    - What's your skill?
+    - I am from IT do you have experience in this domain
+    - How can you be of my help?
+    - can you help me?
+    - for what purpose you are made
+    - how can you serve me?
+    - tell me everything that you can do
+    - Do you work om sales marketing?
+    - Do you provide service in healthcare
+    - so tell me things which you can do
+    - Can i get a list of all the domains that you are involved in
+    - What domain is your company currently working for?
+    - Do you make bots for telecommunication domain?
+    - Please let me know what can you do for me?
+    - please provide me a brief information about all your domains
+    - What can you do for me?
+    - What else can you do?
+    - How can you help me in User onboarding?
+    - What all can you do?
+    - Is there any chance of a small sized buisiness being served by your company?
+    - How can you help me?
+    - How can you solve problem?
+    - Can i know the size of businesses you guys support
+    - could you help me assist in user onboarding?
+    - tell me what can you do?
+    - what are your superpowers?
+    - I am a startup having 20 employees. Does your company collaborate in such cases?
+    - Can you provide me help in Lead generation?
+    - I would like to know more about your capabilities
+    - Do you provide assistance in customer support?
+    - What are your capabilities?
+    - Which scaled enterprizes do you provide your services?
+    - How well do you cater to large scaled businesses?
+    - Do you work for only high scaled businesses?
+    - What can you do for me?
+    - What are your capabilities?
+    - could you help me assist in lead generation?
+    - Can you provide me help in Sales marketing?
+    - What are the things that you can do for me
+    - Which all things are you programmed for
+    - what other things you can do
+    - what all kind of enterprise functions you guys provide?
+    - How are you useful to me
+    - Do you pick companies based on their scales?
+    - Do you serve small scale businesses?
+    - would love to know your capabilities
+    - What are the things you can help me with
+    - Please tell me how you can help me
+    - tell me averything that you can do
+    - I'm a small shop owner.. can you help me
+    - brief me about your abilities
+    - My company is in agricultural product manufacturing. do you have expertise in this?
+    - Is there any specific domain you are active in?
+    - Do you provide service in hospitality 
+    - I want to automate my customer service, do you provide such services 
+    - What kind of enterprizes do you have worked with till now?
+- intent: questioncontact
+  examples: |
+    - How can I reach out over e-mail
+    - Can i get in contact with the customer support 
+    - Show me contact details
+    - How can I meet with the team.
+    - Let me know if you guys work for banking.
+    - Give your mail id details?
+    - Show me contact number.
+    - tell me your email address
+    - Can you share with me contact number
+    - I have a requirement and want contact detail
+    - How can I speak with the team
+    - Can I talk to someone over a call
+    - Please give me your contact details.
+    - if you serve medium scale businesses then we can talk further
+    - I need to quickly connect over phone can you share number
+- intent: expression
+  examples: |
+    - Awesome
+    - Amazing
+    - You're so thoughtful.
+    - thank you very much
+    - that's great.
+    - Thank You
+    - appreciate it!
+    - Thanks
+    - thanks a lot
+    - correct
+    - thnx
+    - no one like you !
+    - Outstanding
+    - you are on point
+    - well done
+    - I'm glad we met!
+    - exactly
+    - let's go
+    - You are perfect
+    - you are always right
+    - good job
+    - Thankyou
+    - ty
+    - You are awesome!
+    - tysm
+    - Cool!
+    - Fantastic
+    - You are so fast in resolving my queries... I am amazed!
+    - You are awesome
+    - its good to see how easily you handle things
+    - your work is to the point
+    - Amazing!
+    - perfect
+    - thats great
+    - good job
+    - cool
+    - Bravo
+    - thanks a ton
+    - thanks for help
+    - You are so nice.
+    - Dude you are smart!
+    - great work
+    - Superb
+    - You are supernatural!
+    - You are very cool!
+    - I appreciate that
+    - you are so Awesome !
+    - thanks very much
+    - You can solve my problem!
+    - Its so convenient talking to you.
+    - You are right
+    
+- intent: responsePos
+  examples: |
+    - yep
+    - yeh
+    - yes
+    - yep
+    - ok
+    - happy yes
+    - yes it is clear
+    - yes i am registered
+    - alright
+    - i am registered yes
+    - I'd say yes
+    - um yeh
+    - I'm in
+    - I'm happy with that
+    - alright
+    - spot on
+    - sure
+    - You got that right mate.
+    - indeed
+    - sure
+    - you're right
+    - I'd say so
+    - yip
+- intent: responseneg
+  examples: |
+    - nop
+    - No, i want to check few things before that.
+    - What is going on, go on!
+    - no i am not
+    - naah
+    - No, I changed my mind.
+    - Not at all
+    - forget it
+    - nope
+    - no way
+    - no chance
+    - not a chance
+    - no way
+    - not a chance
+    - Not possible
+    - no
+    - nope
+    - forget it
+    - nay
+    - nope
+    - Nope
+    - i am not registered
+    - no nothing else
+    - nono
+    - no chance
+    - No chance
+    - uh huh
+    - Nah
+- intent: statement
+  examples: |
+    - the sky is clear
+    - the sky is not clear
+    - I have a small scale business need your help to grow it further
+    - You are my best friend
+- intent: greetbye
+  examples: |
+    - bye
+    - Bye
+    - Tata
+    - Later Alligator
+    - see you
+    - thank you good bye
+    - Talk to you later
+    - See you around
+    - alrighty then
+    - Got to go
+    - take care
+    - ok bye
+    - see ya
+    - Adios
+    - thanks
+    - Asta la vista
+    - Gotta go
+    - laters
+    - so long
+    - See you
+    - Bubye
+    - totes
+    - have a good day
+    - bye bye
+    - au revoir
+    - see you round
+    - See you soon
+    - see you
+    - Goodbye
+    - good bye
+- intent: greethi
+  examples: |
+    - Whats up
+    - Hello how you doing
+    - Hey whats going on
+    - Hey how are you 
+    - Hello my dear friend!
+    - Hello how are you
+    - Hello Mate!
+    - wassup
+    - Hello my friend
+    - hi friend
+    - Good Evening!
+    - Good Morning!
+    - Hey friend
+
+
+
+
+
+
+
+

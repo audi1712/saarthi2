@@ -1,0 +1,10 @@
+intents:
+  - questionhow
+  - questionservices
+  - questioncontact
+  - expression
+  - responsePos
+  - responseneg
+  - statement
+  - greethi
+  - greetbye
